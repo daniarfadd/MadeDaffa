@@ -1,0 +1,4 @@
+rootProject.name = "MadeDaffa"
+include ':app'
+include ':core'
+include ':maps'
