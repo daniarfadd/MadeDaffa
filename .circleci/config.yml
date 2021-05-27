@@ -45,11 +45,7 @@ jobs:
           command: ./gradlew androidDependencies
 
 
-      # And finally run the release build
-      - run:
-          name: Assemble release build
-          command: |
-            ./gradlew assembleRelease    
+      
 
 workflows:
   # Below is the definition of your workflow.
