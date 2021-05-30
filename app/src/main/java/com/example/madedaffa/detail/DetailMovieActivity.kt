@@ -31,8 +31,6 @@ class DetailMovieActivity : AppCompatActivity() {
 
         setSupportActionBar(binding.toolbar)
 
-//        val factory = ViewModelFactory.getInstance(this)
-//        detailMovieViewModel = ViewModelProvider(this, factory)[DetailMovieViewModel::class.java]
 
         val detailMovie = intent.getParcelableExtra<Movie>(EXTRA_DATA)
         showDetailMovie(detailMovie)
